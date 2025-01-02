@@ -1,3 +1,7 @@
-# filepath: /c:/Users/erwan/OneDrive/Bureau/Audodrone/.gitignore
-../../../*
-!../../../OneDrive/Bureau/Audodrone/*
+// filepath: /c:/Users/erwan/OneDrive/Bureau/Audodrone/.gitignore
+# Ignorer tout sauf le répertoire du projet
+/*
+!/OneDrive/
+!/OneDrive/Bureau/
+!/OneDrive/Bureau/Audodrone/
+!/OneDrive/Bureau/Audodrone/**

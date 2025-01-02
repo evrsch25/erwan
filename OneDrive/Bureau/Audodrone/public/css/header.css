@@ -1,0 +1,67 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 10px 40px;
+    background-color: white;
+    z-index: 1000;
+    box-sizing: border-box;
+    transition: top 0.8s, background-color 0.3s, color 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header.scrolled {
+    background-color: white;
+    color: black;
+}
+
+header img {
+    height: 50px;
+}
+
+header h1 {
+    color: black;
+    margin: 0;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+header.scrolled h1 {
+    color: black;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    margin-left: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 15px 20px;
+}
+
+header.scrolled nav ul li a {
+    color: black;
+}
